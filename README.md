@@ -1,31 +1,33 @@
-📌 Hitesh Sir Persona Chatbot
 
-An AI-powered chatbot that simulates conversations in the style and persona of Hitesh Sir.
-Built with Node.js (Express) for the backend, Google Gemini API for AI responses, and a Vanilla JS frontend for chat UI.
+# 📌 Hitesh Sir Persona Chatbot
 
-✨ Features
+An AI-powered chatbot that simulates conversations in the style and persona of **Hitesh Sir**.
+Built with **Node.js (Express)** for the backend, **Google Gemini API** for AI responses, and a **Vanilla JS frontend** for chat UI.
 
-💬 Chat interface with user + bot messages
+---
 
-🎨 Clean, bubble-style UI (user = blue, bot = gray)
+## ✨ Features
 
-⚡ Real-time responses powered by Gemini
+* 💬 Chat interface with user + bot messages
+* 🎨 Clean, bubble-style UI (user = blue, bot = gray)
+* ⚡ Real-time responses powered by **Gemini**
+* 🌐 Backend deployed on **Render**
+* 🔑 Secure API key management with **dotenv**
 
-🌐 Backend deployed on Render
+---
 
-🔑 Secure API key management with dotenv
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack
+* **Frontend**: HTML, CSS (Tailwind), JavaScript
+* **Backend**: Node.js, Express.js
+* **AI**: Google Gemini (`@google/generative-ai`)
+* **Deployment**: Render
 
-Frontend: HTML, CSS (Tailwind), JavaScript
+---
 
-Backend: Node.js, Express.js
+## 📂 Project Structure
 
-AI: Google Gemini (@google/generative-ai)
-
-Deployment: Render
-
-📂 Project Structure
+```
 ├── frontend/
 │   ├── index.html
 │   ├── style.css
@@ -36,64 +38,85 @@ Deployment: Render
 │   ├── package.json
 │   └── .env
 └── README.md
+```
 
-⚡ Setup Instructions
-1️⃣ Clone Repository
+---
+
+## ⚡ Setup Instructions
+
+### 1️⃣ Clone Repository
+
+```bash
 git clone https://github.com/your-username/HiteshSirPersona.git
 cd HiteshSirPersona
+```
 
-2️⃣ Install Backend Dependencies
+### 2️⃣ Install Backend Dependencies
+
+```bash
 cd backend
 npm install
+```
 
-3️⃣ Create .env File
+### 3️⃣ Create `.env` File
 
-Inside backend/.env, add:
+Inside `backend/.env`, add:
 
+```
 GEMINI_API_KEY=your_gemini_api_key_here
 PORT=5000
+```
 
-4️⃣ Run Backend Locally
+### 4️⃣ Run Backend Locally
+
+```bash
 node server.js
-
+```
 
 Server runs at:
-👉 http://localhost:5000
+👉 [http://localhost:5000](http://localhost:5000)
 
-5️⃣ Run Frontend
+### 5️⃣ Run Frontend
 
-Open frontend/index.html in a browser (or use Live Server in VS Code).
+Open `frontend/index.html` in a browser (or use **Live Server** in VS Code).
 
-🚀 Deployment on Render
+---
 
-Push code to GitHub.
+## 🚀 Deployment on Render
 
-Go to Render
- → Create New Web Service.
+1. Push code to GitHub.
+2. Go to [Render](https://render.com) → Create New Web Service.
+3. Connect your repo.
+4. Set **Build Command**:
 
-Connect your repo.
+   ```bash
+   npm install
+   ```
 
-Set Build Command:
+   and **Start Command**:
 
-npm install
+   ```bash
+   node server.js
+   ```
+5. Add environment variable in Render dashboard:
 
+   * `GEMINI_API_KEY = your_key`
+6. Deploy 🎉
 
-and Start Command:
+---
 
-node server.js
+## 📸 Screenshots
 
+### Chat UI
 
-Add environment variable in Render dashboard:
+*User chatting with Hitesh Sir Persona*
 
-GEMINI_API_KEY = your_key
+![Chat UI Screenshot](screenshot.png)
 
-Deploy 🎉
+---
 
-📸 Screenshots
-Chat UI
-
-User chatting with Hitesh Sir Persona
-
-🧑‍💻 Contributing
+## 🧑‍💻 Contributing
 
 Contributions are welcome! Feel free to fork this repo and submit a PR.
+
+-
