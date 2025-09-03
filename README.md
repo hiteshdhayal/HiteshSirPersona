@@ -20,7 +20,7 @@ Built with **Node.js (Express)** for the backend, **Google Gemini API** for AI r
 
 * **Frontend**: HTML, CSS (Tailwind), JavaScript
 * **Backend**: Node.js, Express.js
-* **AI**: Google Gemini (`@google/generative-ai`)
+* **AI**: OPEN-AI
 * **Deployment**: Render
 
 ---
@@ -100,18 +100,11 @@ Open `frontend/index.html` in a browser (or use **Live Server** in VS Code).
    ```
 5. Add environment variable in Render dashboard:
 
-   * `GEMINI_API_KEY = your_key`
+   * `OPEN-AI = your_key`
 6. Deploy 🎉
 
 ---
 
-## 📸 Screenshots
-
-### Chat UI
-
-*User chatting with Hitesh Sir Persona*
-
-![Chat UI Screenshot](screenshot.png)
 
 ---
 
