@@ -10,7 +10,7 @@ Built with **Node.js (Express)** for the backend, **Google Gemini API** for AI r
 
 * 💬 Chat interface with user + bot messages
 * 🎨 Clean, bubble-style UI (user = blue, bot = gray)
-* ⚡ Real-time responses powered by **Gemini**
+* ⚡ Real-time responses powered by **OPENAI**
 * 🌐 Backend deployed on **Render**
 * 🔑 Secure API key management with **dotenv**
 
